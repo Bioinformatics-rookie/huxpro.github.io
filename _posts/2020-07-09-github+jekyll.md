@@ -207,4 +207,4 @@ ctrl+左键点击push，使用force push功能可以将自己修改过的内容�
 
 ---
 
-转载请注明转载请注明：[周小钊的博客](https://www.zhouxiaozhao.cn)- [利用github和jekyll构建个人博客](https://bioinformatics-rookie.github.io/2020/07/09/github+jekyll/)
+转载请注明转载请注明：[周小钊的博客](https://www.zhouxiaozhao.cn)- [利用github和jekyll构建个人博客](https://www.zhouxiaozhao/2020/07/09/github+jekyll/)
