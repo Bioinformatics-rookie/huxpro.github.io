@@ -4,7 +4,7 @@ Hello,I'm Zhou Xiaozhao. I'm studying in Kunming Institute of Botany. I'm a grad
 
 I like watching animes and making pasta in my spare time(As a northerner, I feel that the Steamed buns in Kunming is too soft, so I'd better make it myself),Current [blog](www.zhouxiaozhao.cn ) And [jian shu](https://www.jianshu.com/u/e774b57cc676 ) It's my main battlefield. You can find me in these two places.
 
-GitHub gives us a free domain name, and we can use Jekyll + GitHub to build our own blog based on[ huangxuan.me ] (huangxuan.me )Create it after modification. I feel that the topic is very clear. You can go to [GitHub](https://github.com/Huxpro/huxpro.github.io) if you likeThe author is supported by fork and star.
+GitHub gives us a free domain name, and we can use Jekyll + GitHub to build our own blog based on[ huangxuan.me ](huangxuan.me )Create it after modification. I feel that the topic is very clear. You can go to [GitHub](https://github.com/Huxpro/huxpro.github.io) if you likeThe author is supported by fork and star.
 
 ---
 
