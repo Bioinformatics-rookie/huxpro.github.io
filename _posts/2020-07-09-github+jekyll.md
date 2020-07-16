@@ -3,7 +3,7 @@ layout: post
 title: "利用github和jekyll构建个人博客"
 subtitle: "Using GitHub and Jekyll to build personal blog"
 author: "zhouxiaozhao"
-header-img: "img/7.9-jekyll/background.jpg"
+header-img: "img/posts/7.9-jekyll/background.jpg"
 catalog: true
 tags:
      - blog
