@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: huxpro@gmail.com
 description: "这里是周小钊的个人博客，本人是生物信息菜鸟，希望与大家一起交流学习"
 keyword: "周小钊，Zhz，生物信息，bioinformatics，单细胞测序，single cell，比较基因组，"
-url: "https://huangxuan.me"              # your host, for absolute URL
+url: "https://www.zhouxiao.cn"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
