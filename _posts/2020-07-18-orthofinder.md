@@ -223,8 +223,12 @@ $nohup raxmlHPC-PTHREADS-SSE3 -T 16 -f a -x 123 -p 123 -N 1000 -m PROTGAMMAJTT -
 ## 参考链接
 
 [https://www.jianshu.com/p/16e0bbb2ba19](https://www.jianshu.com/p/16e0bbb2ba19)
+
 [http://www.chenlianfu.com/?p=2217](http://www.chenlianfu.com/?p=2217)
+
 [https://github.com/stamatak/standard-RAxML](https://github.com/stamatak/standard-RAxML)
+
 [https://github.com/davidemms/OrthoFinder](https://github.com/davidemms/OrthoFinder)
+
 
 转载请注明[周小钊的博客](www.zhouxiaozao.cn)>>[利用orthofinder寻找单拷贝基因构建系统发育树](www.zhouxiaozhao.cn/2020/07/18/orthofinder/)
