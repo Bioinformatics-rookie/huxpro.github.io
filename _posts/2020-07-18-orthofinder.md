@@ -3,7 +3,6 @@ layout: post
 title: "利用orthofinder寻找单拷贝基因构建系统发育树"
 subtitle: "Searching for single copy genes and constructing phylogenetic tree using orthofinder"
 author: "zhouxiaozhao"
-header-img: "img/posts/7.17/background.png"
 catalog: true
 tags:
      - bioinformatics
