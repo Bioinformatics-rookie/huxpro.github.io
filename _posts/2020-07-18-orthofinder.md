@@ -14,7 +14,7 @@ tags:
 
 ## 1.orthofinder介绍
 
- OrthoFinder是一种快速、准确和全面的比较基因组学分析工具。它可以找到直系和正群，为所有的正群推断基因树，并为所分析的物种推断一个有根的物种树。OrthoFinder还为比较基因组分析提供全面的统计数据。OrthoFinder使用简单，只需运行一组FASTA格式的蛋白质序列文件（每个物种一个）。 
+ OrthoFinder是一种快速、准确和全面的比较基因组学分析工具。它可以找到直系和正群，为所有的正群推断基因树，并为所分析的物种推断一个有根的物种树。OrthoFinder还为比较基因组分析提供全面的统计数据。OrthoFinder使用简单，只需运行一组FASTA格式的蛋白质序列文件（每个物种一个）。
 
 ## 2.基础知识介绍
 
@@ -119,7 +119,7 @@ $sh bash.sh
 
 ### 5.2.提取保守序列
 
-*.1文件是比对好的序列文件，接下来使用Gblocks提取保守序列
+.1文件是比对好的序列文件，接下来使用Gblocks提取保守序列
 
 ```bash
 $wget http://molevol.cmima.csic.es/castresana/Gblocks/Gblocks_Linux64_0.91b.tar.Z
@@ -179,7 +179,7 @@ with open('all.phy', 'w') as fout:
         fout.write('%-20s %s\n' % item)
 ```
 
-从(官网上)[https://www.softpedia.com/dyn-postdownload.php/cc45406e35260b47bfa4132e67f8c446/5f13ff63/286c7/4/1]下载prottest
+从[]官网上](https://www.softpedia.com/dyn-postdownload.php/cc45406e35260b47bfa4132e67f8c446/5f13ff63/286c7/4/1)下载prottest
 
 ```bash
 $ tar zxf prottest-3.4-20140123.tar.gz
@@ -197,7 +197,7 @@ $java -jar /opt/biosoft/prottest-3.4-20140123/prottest-3.4.jar -i all.phy -all-d
 ```bash
 $wget https://github.com/stamatak/standard-RAxML/archive/master.zip
 $unzip master.zip
-$cd standard-RAxML 
+$cd standard-RAxML
 $make -f Makefile.SSE3.gcc
 $make -f Makefile.SSE3.PTHREADS.gcc
 $make -f Makefile.SSE3.MPI.gcc
