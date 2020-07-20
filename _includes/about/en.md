@@ -6,6 +6,7 @@ I like watching animes and making pasta in my spare time(As a northerner, I feel
 
 GitHub gives us a free domain name, and we can use Jekyll + GitHub to build our own blog based on[ huangxuan.me ](huangxuan.me )Create it after modification. I feel that the topic is very clear. You can go to [GitHub](https://github.com/Huxpro/huxpro.github.io) if you likeThe author is supported by fork and star.
 
+![](/img/aboutme.jpg)
 ---
 
 #### contact information
