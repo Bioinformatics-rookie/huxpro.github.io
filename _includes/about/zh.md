@@ -5,7 +5,7 @@ Hello,我是周小钊，目前在昆明植物研究所学习，一位快要秃�
 闲暇喜欢看动漫，制作面食(作为一个北方人感觉昆明的馒头太软，不如自己做)，目前[博客](www.zhouxiaozhao.cn)和[简书](https://www.jianshu.com/u/e774b57cc676)是我的主战场，大家可以在这两个地方找到我。
 
 github给我们一个免费的域名，我们可以使用jekyll+github来构建自己的博客，该博客根据[huangxuan.me]( huangxuan.me ) 修改之后创建，个人感觉该主题简洁明了，大家喜欢可以去[github](https://github.com/Huxpro/huxpro.github.io)上fork与star支持该作者
-
+![](/img/aboutme-1.JPG)
 ![](/img/aboutme.jpg)
 
 ---
