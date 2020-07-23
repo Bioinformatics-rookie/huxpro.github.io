@@ -21,4 +21,4 @@ WeCheat：keyancaijizhousz
 address: Kunming Institute of Botany, Chinese Academy of Sciences, 132 lanhei Road, Panlong District, Kunming
 
 ---
-### If you have a live letter or blog technology, discuss it together.
+### If you have questions about bioinformatics or blogging, we can discuss them together
