@@ -3,7 +3,6 @@ layout: post
 title: "文献导读:菌虫共生真菌测序"
 subtitle: "Literature reading: Sequencing of symbiotic fungi"
 author: "zhouxiaozhao"
-catalog: true
 tags:
      - Literature_reading
 ---
