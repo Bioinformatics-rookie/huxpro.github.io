@@ -1,0 +1,47 @@
+---
+layout: post
+title: "使用IGV简单绘制甲基化分布图"
+subtitle: "IGV was used to simply map the methylation profile"
+author: "zhouxiaozhao"
+catalog: true
+tags:
+     - bioinformatics
+     - methylation
+---
+
+
+
+废话不多说，直接简单粗暴的开始吧
+
+## 导入基因组
+
+导入基因组文件：Genomes→load geome from file→选择"reference.fa"文件
+
+导入注释文件：file →load geome from file →选择om"reference.gff"，由于gff文件已经是按坐标顺序排列的，因此不需要重新排序。
+
+## 导入甲基化数据文件
+
+这是拿到的结果，标注了甲基化的类型以及所在位点。
+
+![image-20200907193242001](\img\posts\2020.8.20\image-20200907193242001.png)
+
+IGV导入的数据需要改为IGV格式，建议先学习下IGV文件的格式
+
+![image-20200907193456432](\img\posts\2020.8.20\image-20200907193456432.png)
+
+可以看到，官网中给了我们IGV文件的格式例子，patient就可以改为不同的甲基化类型，由于IGV格式的文件不支持正负链的标注，所以在转换成IGV格式文件时，我把负链的甲基化值变为负值
+
+最后修改的IGV文件如下（tab分割）：
+
+![image-20200907193849248](\img\posts\2020.8.20\image-20200907193849248.png)
+
+然后通过file→load from file导入，结果如下图：
+
+![image-20200907194817079](\img\posts\2020.8.20\image-20200907194817079.png)
+
+接下来，我们可以修改图片的颜色和字体大小，右键点击相应的行即可
+
+![image-20200907195147388](\img\posts\2020.8.20\image-20200907195147388.png)
+
+点击file→save image即可保存最终图片
+
