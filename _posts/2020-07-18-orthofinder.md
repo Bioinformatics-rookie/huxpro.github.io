@@ -6,7 +6,7 @@ author: "zhouxiaozhao"
 catalog: true
 tags:
      - bioinformatics
-     - gene_tree
+     - Comparative_Genomics 
 ---
 
 
