@@ -76,7 +76,7 @@ RepeatMasker -e ncbi -species arabidopsis -pa 40 -gff  TAIR10.fa
 接下来是生成loom文件，运行velocyto需要准备三个文件，基因组注释文件(gtf)，repeat_masker.gtf(重复序列注释文件)，cellranger的结果文件夹(以样本名WT_1为例，里面包含cell matrix和bam文件)
 
 ```
-velocyto -m Ppatens_masked.gtf WT_1/ Ppatens.gtf
+velocyto -m TAIR10_masked.gtf WANG/ TAIR10.gtf
 ```
 
 运行结束后会在WT_1文件夹下生成velocyto文件夹，里面有velocyto.loom的问价，可以用于下一步的分析
