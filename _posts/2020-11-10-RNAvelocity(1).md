@@ -79,4 +79,4 @@ RepeatMasker -e ncbi -species arabidopsis -pa 40 -gff  TAIR10.fa
 velocyto -m TAIR10_masked.gtf WANG/ TAIR10.gtf
 ```
 
-运行结束后会在WT_1文件夹下生成velocyto文件夹，里面有velocyto.loom的问价，可以用于下一步的分析
+运行结束后会在WANG文件夹下生成velocyto文件夹，里面有velocyto.loom的问价，可以用于下一步的分析
