@@ -1,14 +1,14 @@
 # RNAvelocity
 
-参考链接:https://github.com/velocyto-team/velocyto.R
+参考链接:[https://github.com/velocyto-team/velocyto.R](https://github.com/velocyto-team/velocyto.R)
 
-​              http://velocyto.org/velocyto.py/index.html
+​              [http://velocyto.org/velocyto.py/index.html](http://velocyto.org/velocyto.py/index.html)
 
-​              http://pklab.med.harvard.edu/velocyto/notebooks/R/chromaffin2.nb.html
+​              [http://pklab.med.harvard.edu/velocyto/notebooks/R/chromaffin2.nb.html](http://pklab.med.harvard.edu/velocyto/notebooks/R/chromaffin2.nb.html)
 
-​              https://htmlpreview.github.io/?https://github.com/satijalab/seurat-wrappers/blob/master/docs/velocity.html
+​              [https://htmlpreview.github.io/?https://github.com/satijalab/seurat-wrappers/blob/master/docs/velocity.html](https://htmlpreview.github.io/?https://github.com/satijalab/seurat-wrappers/blob/master/docs/velocity.html)
 
-​              https://github.com/velocyto-team/velocyto.R/issues/16
+​              [https://github.com/velocyto-team/velocyto.R/issues/16](https://github.com/velocyto-team/velocyto.R/issues/16)
 
 ## velocyto下载
 
@@ -43,6 +43,20 @@ Commands:
 运行velocyto需要准备三个文件，单细胞数据分析的结果文件，基因组注释文件，重复序列注释文件，其中前两个在单细胞分析时就会得到，关键是这个repeat_masker.gtf
 
 本人是做植物的，所以本次教程主要关注植物类repeat_masker.gtf的获得，人和小鼠的重复序列文件比较好得到，植物类首先可以看一下Phtozome数据库上想要研究的物种的注释文件夹下有没有reapeat.gtf，没有就要我们自己生成了
+
+![image-20201124191831469](C:/Users/zszpc/AppData/Roaming/Typora/typora-user-images/image-20201124191831469.png)
+
+重复序列的注释文件我们一直没怎么关注过，对于做过基因组注释的童鞋来说，大家都忽略了一步，其实repeatmasker就可以生成重复序列的注释文件。
+
+```
+RepeatMasker -e ncbi -species arabidopsis -pa 40 -gff  TAIR10.fa
+```
+
+生成gff文件后，可以看到重复序列的点位以及属性，velocyto主要使用的就是位点
+
+![image-20201124191648003](C:/Users/zszpc/AppData/Roaming/Typora/typora-user-images/image-20201124191648003.png)
+
+## loom文件生成
 
 接下来是生成loom文件，运行velocyto需要准备三个文件，基因组注释文件(gtf)，repeat_masker.gtf(重复序列注释文件)，cellranger的结果文件夹(以样本名WT_1为例，里面包含cell matrix和bam文件)
 
