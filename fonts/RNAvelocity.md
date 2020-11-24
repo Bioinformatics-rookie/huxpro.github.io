@@ -10,7 +10,7 @@
 
 ​              https://github.com/velocyto-team/velocyto.R/issues/16
 
-## 10X单细胞数据生成loom文件
+## velocyto下载
 
 首先是下载velocyto生成loom文件
 
@@ -37,6 +37,12 @@ Commands:
   run-smartseq2  Runs the velocity analysis on SmartSeq2 data (independent bam file per cell)
   tools          helper tools for velocyto
 ```
+
+## repeat_masker.gtf生成
+
+运行velocyto需要准备三个文件，单细胞数据分析的结果文件，基因组注释文件，重复序列注释文件，其中前两个在单细胞分析时就会得到，关键是这个repeat_masker.gtf
+
+本人是做植物的，所以本次教程主要关注植物类repeat_masker.gtf的获得，人和小鼠的重复序列文件比较好得到，植物类首先可以看一下Phtozome数据库上想要研究的物种的注释文件夹下有没有reapeat.gtf，没有就要我们自己生成了
 
 接下来是生成loom文件，运行velocyto需要准备三个文件，基因组注释文件(gtf)，repeat_masker.gtf(重复序列注释文件)，cellranger的结果文件夹(以样本名WT_1为例，里面包含cell matrix和bam文件)
 
