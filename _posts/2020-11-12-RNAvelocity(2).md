@@ -1,3 +1,14 @@
+---
+layout: post
+title: "RNA速率：数据读入"
+subtitle: "RNA velocity(2)"
+author: "zhouxiaozhao"
+catalog: true
+tags:
+     - bioinformatics
+     - ScRNAseq
+     - RNA_velocity
+---
 
 参考链接:
 [https://github.com/velocyto-team/velocyto.R](https://github.com/velocyto-team/velocyto.R)
