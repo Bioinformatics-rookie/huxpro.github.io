@@ -25,6 +25,8 @@ tags:
 
 [https://github.com/velocyto-team/velocyto.R/issues/16](https://github.com/velocyto-team/velocyto.R/issues/16)
 
+[https://www.jianshu.com/p/bce19672879e](https://www.jianshu.com/p/bce19672879e)
+
 ## velocyto下载
 
 首先是下载velocyto生成loom文件
