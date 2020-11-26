@@ -10,6 +10,8 @@ tags:
      - RNA_velocity
 ---
 
+
+
 参考链接:
 [https://github.com/velocyto-team/velocyto.R](https://github.com/velocyto-team/velocyto.R)
 
@@ -22,6 +24,14 @@ tags:
 [https://github.com/velocyto-team/velocyto.R/issues/16](https://github.com/velocyto-team/velocyto.R/issues/16)
 
 [https://www.cnblogs.com/raisok/p/12425258.html](https://www.cnblogs.com/raisok/p/12425258.html)
+
+## 目录
+
+[RNA速率:软件下载与loom文件准备](https://www.zhouxiaozhao.cn/2020/11/10/RNAvelocity(1)/)
+
+[RNA速率：数据读入](https://www.zhouxiaozhao.cn/2020/11/12/RNAvelocity(2)/)
+
+[RNA速率：使用Seurat的结果做RNA velocity](https://www.zhouxiaozhao.cn/2020/11/14/RNAvelocity(3)/)
 
 ## velocyto.R的安装
 

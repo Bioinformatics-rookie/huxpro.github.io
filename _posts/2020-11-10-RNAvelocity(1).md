@@ -27,6 +27,14 @@ tags:
 
 [https://www.jianshu.com/p/bce19672879e](https://www.jianshu.com/p/bce19672879e)
 
+## 目录
+
+[RNA速率:软件下载与loom文件准备](https://www.zhouxiaozhao.cn/2020/11/10/RNAvelocity(1)/)
+
+[RNA速率：数据读入](https://www.zhouxiaozhao.cn/2020/11/12/RNAvelocity(2)/)
+
+[RNA速率：使用Seurat的结果做RNA velocity](https://www.zhouxiaozhao.cn/2020/11/14/RNAvelocity(3)/)
+
 ## velocyto下载
 
 首先是下载velocyto生成loom文件
